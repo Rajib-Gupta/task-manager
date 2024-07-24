@@ -1,42 +1,4 @@
 .board {
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    
-    h1 {
-      margin: 0;
-    }
-    
-    h2 {
-      margin: 5px 0;
-      font-weight: normal;
-    }
-    
-    p {
-      margin: 0 0 20px 0;
-      font-style: italic;
-    }
-  
-    .board-menu {
-      margin-bottom: 20px;
-      
-      button {
-        margin: 0 5px;
-        padding: 10px 20px;
-        border: none;
-        background-color: #e0e0e0;
-        cursor: pointer;
-        
-        &.active {
-          background-color: #d0d0d0;
-          font-weight: bold;
-        }
-      }
-    }
-  
-    .columns {
-      display: flex;
-      justify-content: space-between;
-    }
+    display: flex;
+    justify-content: space-between;
   }
-  

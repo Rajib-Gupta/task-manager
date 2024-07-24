@@ -1,40 +1,32 @@
-.task-card {
+.task {
     background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #e0e0e0;
     border-radius: 5px;
-    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
   
-    &.overdue {
-      border-left: 5px solid red;
-    }
+  .task.overdue {
+    border-left: 4px solid red;
+  }
   
-    &.completed {
-      border-left: 5px solid green;
-    }
+  .task.completed {
+    border-left: 4px solid green;
+  }
   
-    &.past-due {
-      border-left: 5px solid purple;
-    }
+  .task.past-due {
+    border-left: 4px solid purple;
+  }
   
-    h4 {
-      margin: 0;
-    }
+  .assignees {
+    display: flex;
+    gap: 5px;
+  }
   
-    p {
-      margin: 5px 0;
-    }
-  
-    .assignees {
-        span {
-        text-align: right;
-        display: inline-block;
-        // margin-right: 5px;
-        // padding: 2px 5px;
-        background-color: #e0e0e0;
-        border-radius: 3px;
-      }
-    }
+  .assignee {
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 5px 10px;
   }
   
